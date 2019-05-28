@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.moto {
+   color: blue !important;
+   background-color: #eee;
+   font-family: cursive;
+}
+
+img {
+    width: inherit;
+    height: inherit;
+}
+
+.cart-img {
+    width: 80px !important;
+    height: 100px !important;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer {
+    padding: 20px;
+    background-color: #eee;
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+}
+
+.card-hover:hover {
+    box-shadow: 1px 4px 4px;
+}
+
+.cart-btn:hover {
+    background-color: transparent;
+    color: green !important;
+}
